@@ -50,8 +50,8 @@ const Maps = () => {
 
       {seoul_gu2.features.map((gu) => {
         const coordinates = gu.geometry.coordinates[0].map((item) => [
-          item[1] + 0.0028,
-          item[0] - 0.0025,
+          item[1],
+          item[0],
         ]);
 
         return (
